@@ -8,7 +8,7 @@ Codeforces, LeetCode, CSES, CodeChef &amp; GeeksforGeeks solutions, organized cl
 
 Synced automatically by SolveBase.
 
-**Total solved: 19**
+**Total solved: 20**
 
 ## Codeforces
 
@@ -39,14 +39,14 @@ Solutions organized by primary topic folder.
 
 Solutions from the CSES Problem Set, organized by section.
 
-**Solved: 10**
+**Solved: 11**
 
 | Section | Solved |
 | --- | --- |
 | [advanced-techniques](./cses/advanced-techniques) | 1 |
 | [dynamic-programming](./cses/dynamic-programming) | 1 |
 | [mathematics](./cses/mathematics) | 5 |
-| [range-queries](./cses/range-queries) | 3 |
+| [range-queries](./cses/range-queries) | 4 |
 
 
 ## CodeChef
@@ -71,5 +71,5 @@ Solutions organized by difficulty level.
 | — | 0 |
 
 
-_Last updated: 2026-09-16_
+_Last updated: 2026-09-19_
 <!-- /cf-sync -->
