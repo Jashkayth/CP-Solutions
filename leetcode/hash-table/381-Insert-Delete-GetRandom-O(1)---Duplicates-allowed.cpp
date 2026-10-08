@@ -2,7 +2,6 @@ class RandomizedCollection {
 public:
     unordered_map<int,set<int>>mp;
     vector<int>nums;
-    int curr_pos=0;
     RandomizedCollection() {
 
     }
@@ -11,14 +10,12 @@ public:
         {
             nums.push_back(val);
             mp[val].insert(nums.size()-1);
-            curr_pos++;
             return true;
         }
         else
         {
             nums.push_back(val);
             mp[val].insert(nums.size()-1);
-            curr_pos++;
             return false;
         }
     }
@@ -35,12 +32,10 @@ public:
         if(idx!=last_idx)
         {
             nums[idx]=last_val;
-
             mp[last_val].erase(last_idx);
             mp[last_val].insert(idx);
         }
         nums.pop_back();
-        curr_pos--;
         if(mp[val].empty())
         {
             mp.erase(val);
